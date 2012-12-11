@@ -73,3 +73,17 @@ rm -rf %{buildroot}
 %attr(-,snmptt,snmptt) %{_localstatedir}/log/snmptt
 %attr(-,snmptt,snmptt) %{_localstatedir}/spool/snmptt
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 1.3-2mdv2011.0
++ Revision: 614933
+- the mass rebuild of 2010.1 packages
+
+* Thu Nov 26 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.3-1mdv2010.1
++ Revision: 470345
+- import snmptt
+
+
+* Thu Nov 26 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.3-1mdv2010.1
+- first mdv package 
