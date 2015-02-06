@@ -1,6 +1,6 @@
 Name:           snmptt
 Version:        1.3
-Release:        %mkrel 2
+Release:        3
 Summary:        SNMP Trap Translator
 Group:          System/Servers
 License:        GPL
