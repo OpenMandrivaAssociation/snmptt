@@ -4,7 +4,7 @@ Release:	1
 Summary:        SNMP Trap Translator
 Group:          System/Servers
 License:        GPL
-URL:            http://snmptt.sourceforge.net/
+URL:            https://snmptt.sourceforge.net/
 Source0:        http://sourceforge.net/projects/snmptt/files/snmptt/snmptt_%{version}/snmptt_%{version}.tgz
 BuildArch:		noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
