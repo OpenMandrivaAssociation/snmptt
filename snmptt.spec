@@ -1,5 +1,5 @@
 Name:           snmptt
-Version:	1.4
+Version:	1.5
 Release:	1
 Summary:        SNMP Trap Translator
 Group:          System/Servers
@@ -14,7 +14,7 @@ SNMPTT (SNMP Trap Translator) is an SNMP trap handler written in Perl for use
 with the Net-SNMP / UCD-SNMP snmptrapd program (www.net-snmp.org).
 
 %prep
-%setup -q -n %{name}_%{version}
+%setup -q -n snmptt_1.5
 
 %install
 rm -rf %{buildroot}
